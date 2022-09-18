@@ -1,26 +1,86 @@
+/* Color Scheme
+French Lilac (#8C6C8C)
+Rosy Brown (#B8898B)
+Dark Vanilla (#CFC3A6)
+Aztec Gold (#BB9A4E) 
+Tuscan Red (#835252)
+Royal Brown (#553B31) */
+
 /* Main */
 
+body {
+    background-color: #CFC3A6;
+}
+
 .main-container {
-    border: 2px solid green;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 header {
-    height: 150px;
-    background-color: firebrick;
+    height: 166px;
+    background-color: #835252;
+    padding-top: 44px;
+    padding-bottom: 50px;
+    margin-left: 471px;
+    margin-right: 471px;
+}
+
+nav {
+    padding-top: 56px;
+    text-align: center;
+}
+
+.topBar {
+    padding-left: 19px;
+    padding-right: 19px;
 }
 
 main {
     flex: 1;
-    background-color: wheat;
+    background-color: #8C6C8C;
 }
 
 footer {
-    height: 180px;
-    background-color: plum;
+    padding-top: 36px;
+    padding-bottom: 42px;
+    background-color: #835252;
 }
+
+.footer {
+    height: 44px;
+    margin-left: 471px;
+    margin-right: 471px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#botNav {
+    padding: 0;
+    display: flex;
+}
+
+.bpic {
+    height: 44px;
+    width: 44px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+
+.afoot {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #BB9A4E;
+}
+
+/* end Template */
 
 
 
@@ -36,11 +96,13 @@ header div.hamburger {
     display: none;
 }
 
-
-
+p {
+    text-align: center;
+    text-transform: uppercase;
+}
 
 .image {
-    height: 483px;
+    height: 732px;
     position: relative;
 }
 
@@ -55,35 +117,51 @@ header div.hamburger {
 }
 
 .writing > h2 {
-
+    margin-bottom: 10px;
+    padding: 23px 27px 20px 27px;
 }
+
 .writing > span {
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 12px 27px;
 }
 
 .readMore {
-    border: 1px solid white;
+    border: 3px solid white;
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 5px;
     background: white;
+    padding: 12px 27px;
 
 }
 #home {
-    height: 483px;
+    height: 732px;
     width: 100%;
     object-fit: cover;
 }
 
 #homePictures {
+    height: 339px;
     display: flex;
     margin-left: 146px;
     margin-right: 146px;
+    justify-content: center;
+    align-items: center;
 }
 
 .hpic {
     height:fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
+.ipic {
+    height: 242px;
+    border: 2px solid black;
+}
 
 @media(max-width: 576px) {
     header nav {
