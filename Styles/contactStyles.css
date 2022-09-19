@@ -31,6 +31,8 @@ main {
     flex: 1;
     background-color: #8C6C8C;
     padding-bottom: 30px;
+    margin-left: 471px;
+    margin-right: 471px;
 }
 
 footer {
@@ -74,13 +76,13 @@ a {
 h1 {
     text-align: center;
     background: #BB9A4E;
-    margin-left: 750px;
-    margin-right: 750px;
+    margin-left: 279px;
+    margin-right: 279px;
     opacity: .8;
 }
 form {
-    margin-left: 639px;
-    margin-right: 639px;
+    margin-left: 168px;
+    margin-right: 168px;
     padding-top: 24px;
     display: flex;
     flex-direction: column;

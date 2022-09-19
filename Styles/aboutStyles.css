@@ -32,6 +32,8 @@ main {
     flex: 1;
     background-color: #8C6C8C;
     padding-bottom: 30px;
+    margin-left: 471px;
+    margin-right: 471px;
 }
 
 footer {
@@ -75,14 +77,9 @@ a {
 h1 {
     text-align: center;
     background: #BB9A4E;
-    margin-left: 700px;
-    margin-right: 700px;
+    margin-left: 229px;
+    margin-right: 229px;
     opacity: .8;
-}
-
-.mainDiv {
-    margin-left: 470px;
-    margin-right: 470px;
 }
 
 .dual {

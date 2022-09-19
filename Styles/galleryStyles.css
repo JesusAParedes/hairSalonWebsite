@@ -30,6 +30,10 @@ nav {
 main {
     flex: 1;
     background-color: #8C6C8C;
+    margin-left: 471px;
+    margin-right: 471px;
+    padding-top: 24px;
+    padding-bottom: 30px;
 }
 
 footer {
@@ -68,4 +72,26 @@ footer {
 a {
     text-decoration: none;
     color: #BB9A4E;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr; 
+} 
+
+img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
