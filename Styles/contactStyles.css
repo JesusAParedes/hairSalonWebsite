@@ -30,6 +30,7 @@ nav {
 main {
     flex: 1;
     background-color: #8C6C8C;
+    padding-bottom: 30px;
 }
 
 footer {
@@ -68,4 +69,35 @@ footer {
 a {
     text-decoration: none;
     color: #BB9A4E;
+}
+
+h1 {
+    text-align: center;
+    background: #BB9A4E;
+    margin-left: 750px;
+    margin-right: 750px;
+    opacity: .8;
+}
+form {
+    margin-left: 639px;
+    margin-right: 639px;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+#name, #address, #email, #phone, textarea {
+    padding: 20px 10px;
+    border: 2px solid black;
+    margin-bottom: 37px;
+}
+
+.relative {
+    text-align: center;
+}
+
+button {
+    background: #835252;
+    color: #BB9A4E;
+    padding: 20px 28px;
+    margin-bottom: 37px;
 }
