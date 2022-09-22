@@ -28,11 +28,12 @@ nav {
 }
 
 main {
+    height: 1017px;
     flex: 1;
     background-color: #8C6C8C;
+    padding-bottom: 30px;
     margin-left: 471px;
     margin-right: 471px;
-    padding-bottom: 30px;
 }
 
 footer {
@@ -81,34 +82,31 @@ h1 {
     opacity: .8;
 }
 
-.section-container {
-    padding-top: 24px;
-}
-
-img {
-    height: 300px;
-    width: 295px;
-    object-fit: cover;
-}
-
-section {
-    display: flex;
-    margin-bottom: 13px;
-}
-
-.blogDiv {
-    width: 558px;
-    padding-top: 63px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-img, section {
+.dual {
+    width: 616px;
+    margin-top: 24px;
     border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-button {
-    padding: 8px 28px;
-    background: #835252;
-    color: #BB9A4E;
+
+article {
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.articleP {
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-weight: normal;
 }

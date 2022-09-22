@@ -32,7 +32,6 @@ main {
     background-color: #8C6C8C;
     margin-left: 471px;
     margin-right: 471px;
-    padding-top: 24px;
     padding-bottom: 30px;
 }
 
@@ -76,10 +75,15 @@ a {
 
 h1 {
     text-align: center;
+    background: #BB9A4E;
+    margin-left: 229px;
+    margin-right: 229px;
+    opacity: .8;
 }
 
 section {
     display: grid;
+    padding-top: 24px;
     flex-direction: row;
     flex-wrap: wrap;
      grid-template-columns: 1fr 1fr 1fr;
