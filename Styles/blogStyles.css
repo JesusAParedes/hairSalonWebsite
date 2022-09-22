@@ -83,6 +83,8 @@ h1 {
 
 .section-container {
     padding-top: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 img {
