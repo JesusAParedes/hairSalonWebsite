@@ -134,3 +134,33 @@ button {
 h3 {
     font-size: 24px;
 }
+
+@media(max-width: 576px) {
+
+    header, main, .footer, .bpic, h2, .dual, article, .logoName {
+        margin: 0;
+    }
+
+    .blogDiv {
+        padding: 0;
+        width: 468px;
+    }
+
+    img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .blogP {
+        padding: 30px 30px 18px 30px;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    
+}

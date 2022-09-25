@@ -20,7 +20,7 @@ header {
 .logoName {
     margin-left: 310px;
     margin-right: 310px;
-    width: 340px;
+    width: 100%;
 }
 
 h1 { 
@@ -121,4 +121,12 @@ h3 {
     font-size: 15px;
     margin-bottom: 30px;
     font-weight: normal;
+}
+
+@media(max-width: 576px) {
+
+header, main, .footer, .bpic, h2, .dual, article, .logoName {
+    margin: 0;
+}
+
 }

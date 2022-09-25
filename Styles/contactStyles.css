@@ -92,6 +92,7 @@ h2 {
     margin-right: 279px;
     opacity: .8;
 }
+
 form {
     margin-left: 168px;
     margin-right: 168px;
@@ -99,10 +100,11 @@ form {
     display: flex;
     flex-direction: column;
 }
-#name, #address, #email, #phone, textarea {
+input, textarea {
     padding: 20px 10px;
     border: 2px solid black;
     margin-bottom: 37px;
+    text-align: center;
 }
 
 .relative {
@@ -114,4 +116,26 @@ button {
     color: #BB9A4E;
     padding: 20px 28px;
     margin-bottom: 37px;
+}
+
+
+@media(max-width: 576px) {
+
+    header, main, .footer, .bpic, form, h2, .logoName {
+        margin: 0;
+    }
+
+    form {
+        align-items: center;
+    }
+    
+    input, textarea {
+        width: 84%;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
 }

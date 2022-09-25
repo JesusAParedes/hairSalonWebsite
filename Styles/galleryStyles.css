@@ -111,3 +111,21 @@ img {
     margin-right: 10px;
     margin-bottom: 20px;
 }
+
+@media(max-width: 576px) {
+
+    header, main, .footer, .bpic, h2, .logoName {
+        margin: 0;
+    }
+
+    section {
+        display: grid;
+        flex-wrap: wrap;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr; 
+    }
+    img {
+        height: 200px;
+        width: 200px;
+    }
+}
