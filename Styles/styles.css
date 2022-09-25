@@ -25,6 +25,7 @@ header {
     padding-bottom: 50px;
     margin-left: 471px;
     margin-right: 471px;
+    text-align: center;
 }
 
 .logoName {
@@ -37,10 +38,83 @@ h1 {
     text-align: center;
     font-size: 50px;
 }
-nav {
+
+.navBar {
     padding-top: 56px;
-    text-align: center;
+    text-transform: uppercase;
 }
+
+ul {
+    display: flex;
+}
+
+/* Hamburger */
+
+/* #hamBar {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    transition: transform 400ms ease-in-out;
+    transform: scale(1,0);
+    transform-origin: top;
+    color: black;
+    text-decoration: none; 
+    font-size: 1rem;
+    text-transform: uppercase;
+    opacity: 0;
+}
+
+.nav-toggle:checked ~ nav
+{
+transform:scale(1);
+}
+
+.nav-toggle
+{
+display:none;
+}
+
+.toggle-label 
+{
+position: absolute;
+top:0; 
+right:25%;
+margin-right:1rem;
+height: 50px;
+display: flex;
+align-items: center;
+
+}
+
+.toggle-label span
+{
+display: block;
+background: white;
+height: 2px;
+width: 2rem;
+position: relative;
+}
+
+.toggle-label span::before {
+ bottom: .4rem;
+ background: white;
+ height: 2px;
+ width: 2rem;
+ content: '';
+ position: absolute;
+}
+
+.toggle-label span::after
+{
+  top: .4rem;
+  background: white;
+height: 2px;
+width: 2rem;
+  content: '';
+ position: absolute;
+} */
+
+/* Hamburger */
 
 .topBar {
     padding-left: 19px;
@@ -178,12 +252,187 @@ p {
 }
 
 @media(max-width: 576px) {
-    header nav {
-        display: none;
-    }
 
-    header div.hamburger {
-        display: flex;
-    }
+h1 {
+    font-size: 26px;
+}
+
+header {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+/* header nav {
+    display: none;
+} */
+
+/* header div.hamburger {
+    display: flex;
+} */
+
+/* Hamburger */
+
+/* #hamBar {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    transition: transform 400ms ease-in-out;
+    transform: scale(1,0);
+    transform-origin: top;
+    color: black;
+    text-decoration: none; 
+    font-size: 1rem;
+    text-transform: uppercase;
+    opacity: 0;
+}
+
+.nav-toggle:checked ~ nav
+{
+transform:scale(1);
+}
+
+.nav-toggle
+{
+display:none;
+}
+
+.toggle-label 
+{
+position: absolute;
+top:0; 
+right:25%;
+margin-right:1rem;
+height: 50px;
+display: flex;
+align-items: center;
+
+}
+
+.toggle-label span
+{
+display: block;
+background: white;
+height: 2px;
+width: 2rem;
+position: relative;
+}
+
+.toggle-label span::before {
+ bottom: .4rem;
+ background: white;
+ height: 2px;
+ width: 2rem;
+ content: '';
+ position: absolute;
+}
+
+.toggle-label span::after
+{
+  top: .4rem;
+  background: white;
+height: 2px;
+width: 2rem;
+  content: '';
+ position: absolute;
+}
+
+.toggle-label{
+    display: none; 
   }
   
+header {
+  display: flex; 
+  justify-content: space-around;
+  }
+  
+ .hamBar {
+   all: unset;
+   color: white;
+   display: flex; 
+  }
+
+  .hamBar a {
+   opacity: 1;
+  }
+
+  .hamBar ul {
+   display: flex; 
+  }
+
+  .hamBar ul li {
+   margin: 2rem;
+  } */
+
+/* Hamburger */
+
+main {
+    margin: 0;
+  }
+
+footer {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+
+.footer {
+    margin: 0;
+  }
+
+.readMore {
+    border: 0;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.image {
+    height: 369px;
+}
+  
+#home {
+    height: 369px;
+    position: relative;
+}
+
+.writing {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.writing > h2 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding: 8px 5px;
+    background: #835252;
+    opacity: .8;
+    font-size: 13px;
+}
+
+.writing > span {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background: #8C6C8C;
+    opacity: .8;
+}
+
+#homePictures {
+    height: 1200px;
+    margin: 0;
+    flex-direction: column;
+  }
+  
+.ipic {
+    height: 346px;
+}
+
+p {
+    font-size: 12px;
+  }
+
+
+}
