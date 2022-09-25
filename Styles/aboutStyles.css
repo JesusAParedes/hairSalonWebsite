@@ -9,12 +9,23 @@ body {
 }
 
 header {
-    height: 166px;
+    height: 260px;
     background-color: #835252;
     padding-top: 44px;
     padding-bottom: 50px;
     margin-left: 471px;
     margin-right: 471px;
+}
+
+.logoName {
+    margin-left: 310px;
+    margin-right: 310px;
+    width: 340px;
+}
+
+h1 { 
+    text-align: center;
+    font-size: 50px;
 }
 
 nav {
@@ -74,8 +85,9 @@ a {
     color: #BB9A4E;
 }
 
-h1 {
+h2 {
     text-align: center;
+    font-size: 30px;
     background: #BB9A4E;
     margin-left: 229px;
     margin-right: 229px;
@@ -100,9 +112,9 @@ article {
     padding-right: 30px;
 }
 
-h2 {
+h3 {
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .articleP {

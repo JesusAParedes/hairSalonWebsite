@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    height: 166px;
+    height: 260px;
     background-color: #835252;
     padding-top: 44px;
     padding-bottom: 50px;
@@ -27,6 +27,16 @@ header {
     margin-right: 471px;
 }
 
+.logoName {
+    margin-left: 310px;
+    margin-right: 310px;
+    width: 340px;
+}
+
+h1 { 
+    text-align: center;
+    font-size: 50px;
+}
 nav {
     padding-top: 56px;
     text-align: center;
@@ -119,13 +129,17 @@ p {
 .writing > h2 {
     margin-bottom: 10px;
     padding: 23px 27px 20px 27px;
+    background: #835252;
+    opacity: .8;
 }
 
 .writing > span {
-    font-size: 25px;
+    font-size: 23px;
     margin-top: 7px;
     margin-bottom: 7px;
     padding: 12px 27px;
+    background: #8C6C8C;
+    opacity: .8;
 }
 
 .readMore {
