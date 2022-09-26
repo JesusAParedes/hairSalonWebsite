@@ -135,10 +135,11 @@ button {
 
     form {
         align-items: center;
+        width: 480px;
     }
     
     input, textarea {
-        width: 84%;
+        width: 75%;
         margin-bottom: 20px;
         padding: 10px;
     }

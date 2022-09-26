@@ -47,6 +47,7 @@ main {
     flex: 1;
     background-color: #8C6C8C;
     padding-bottom: 30px;
+    margin: auto;
 }
 
 .gPics {
@@ -109,7 +110,7 @@ h2 {
 section {
     display: grid;
     padding-top: 24px;
-    margin: 0 469px auto;
+    margin:auto 469px;
     flex-direction: row;
     flex-wrap: wrap;
      grid-template-columns: 330px 330px 330px;
