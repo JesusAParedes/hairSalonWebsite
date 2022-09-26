@@ -13,13 +13,13 @@ header {
     background-color: #835252;
     padding-top: 44px;
     padding-bottom: 50px;
-    margin-left: 471px;
-    margin-right: 471px;
+    margin-left: 471px auto;
+    margin-right: 471px auto;
 }
 
 .logoName {
-    margin-left: 310px;
-    margin-right: 310px;
+    margin-left: 700px;
+    margin-right: 700px;
     width: 100%;
 }
 
@@ -43,14 +43,16 @@ main {
     flex: 1;
     background-color: #8C6C8C;
     padding-bottom: 30px;
-    margin-left: 471px;
-    margin-right: 471px;
 }
 
 footer {
     padding-top: 36px;
     padding-bottom: 42px;
     background-color: #835252;
+}
+
+.mainDiv {
+    margin: 0 auto;
 }
 
 .footer {
@@ -123,10 +125,14 @@ h3 {
     font-weight: normal;
 }
 
+
 @media(max-width: 576px) {
 
-header, main, .footer, .bpic, h2, .dual, article, .logoName {
-    margin: 0;
+header, main, .footer, .bpic, .mainDiv, h2, .dual, article, .logoName {
+    margin: auto;
+}
+    h1, h2 {
+        font-size: 35px;
+    }
 }
 
-}

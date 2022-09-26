@@ -13,13 +13,13 @@ header {
     background-color: #835252;
     padding-top: 44px;
     padding-bottom: 50px;
-    margin-left: 471px;
-    margin-right: 471px;
+    margin-left: 471px auto;
+    margin-right: 471px auto;
 }
 
 .logoName {
-    margin-left: 310px;
-    margin-right: 310px;
+    margin-left: 310px auto;
+    margin-right: 310px auto;
     width: 340px;
 }
 
@@ -41,9 +41,12 @@ nav {
 main {
     flex: 1;
     background-color: #8C6C8C;
-    margin-left: 471px;
-    margin-right: 471px;
     padding-bottom: 30px;
+}
+
+.gPics {
+    margin-left: 471px auto;
+    margin-right: 471px auto;
 }
 
 footer {
@@ -54,11 +57,16 @@ footer {
 
 .footer {
     height: 44px;
-    margin-left: 471px;
-    margin-right: 471px;
+    margin-left: 471px auto;
+    margin-right: 471px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.aPic, .galleryPics {
+    height: 300px;
+    width: 300px;
 }
 
 #botNav {
@@ -69,8 +77,8 @@ footer {
 .bpic {
     height: 44px;
     width: 44px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10px auto;
+    margin-right: 10px auto;
     border: 2px solid black;
 }
 
@@ -88,18 +96,19 @@ h2 {
     text-align: center;
     font-size: 30px;
     background: #BB9A4E;
-    margin-left: 229px;
-    margin-right: 229px;
+    margin-left: 229px auto;
+    margin-right: 229px auto;
     opacity: .8;
 }
 
 section {
     display: grid;
     padding-top: 24px;
+    margin: 0 469px auto;
     flex-direction: row;
     flex-wrap: wrap;
-     grid-template-columns: 1fr 1fr 1fr;
-     grid-template-rows: 1fr 1fr 1fr; 
+     grid-template-columns: 330px 330px 330px;
+     grid-template-rows: 330px 330px 330px;
 } 
 
 img {
@@ -114,18 +123,22 @@ img {
 
 @media(max-width: 576px) {
 
-    header, main, .footer, .bpic, h2, .logoName {
+    header, main, .footer, .bpic, h2, section, .logoName {
         margin: 0;
     }
 
     section {
         display: grid;
         flex-wrap: wrap;
-         grid-template-columns: 1fr 1fr;
-         grid-template-rows: 1fr 1fr 1fr; 
+         grid-template-columns: 50% 50%;
+         grid-template-rows: 220px 220px 220px 220px 220px; 
     }
-    img {
+    img, .aPic, .galleryPics {
         height: 200px;
         width: 200px;
+    }
+
+    h1 {
+        font-size: 35px;
     }
 }

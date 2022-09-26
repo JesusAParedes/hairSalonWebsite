@@ -23,8 +23,8 @@ header {
     background-color: #835252;
     padding-top: 44px;
     padding-bottom: 50px;
-    margin-left: 471px;
-    margin-right: 471px;
+    margin-left: 471px auto;
+    margin-right: 471px auto;
     text-align: center;
 }
 
@@ -254,7 +254,7 @@ p {
 @media(max-width: 576px) {
 
 h1 {
-    font-size: 26px;
+    font-size: 35px;
 }
 
 header {

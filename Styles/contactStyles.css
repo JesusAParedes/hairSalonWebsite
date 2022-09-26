@@ -13,13 +13,13 @@ header {
     background-color: #835252;
     padding-top: 44px;
     padding-bottom: 50px;
-    margin-left: 471px;
-    margin-right: 471px;
+    margin-left: 471px auto;
+    margin-right: 471px auto;
 }
 
 .logoName {
-    margin-left: 310px;
-    margin-right: 310px;
+    margin-left: 310px auto;
+    margin-right: 310px auto;
     width: 340px;
 }
 
@@ -42,8 +42,11 @@ main {
     flex: 1;
     background-color: #8C6C8C;
     padding-bottom: 30px;
-    margin-left: 471px;
-    margin-right: 471px;
+    margin-left: 471px auto;
+    margin-right: 471px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
@@ -54,8 +57,8 @@ footer {
 
 .footer {
     height: 44px;
-    margin-left: 471px;
-    margin-right: 471px;
+    margin-left: 471px auto;
+    margin-right: 471px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,8 +72,8 @@ footer {
 .bpic {
     height: 44px;
     width: 44px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 10px auto;
+    margin-right: 10px auto;
     border: 2px solid black;
 }
 
@@ -94,11 +97,11 @@ h2 {
 }
 
 form {
-    margin-left: 168px;
-    margin-right: 168px;
+    margin: 0 auto;
     padding-top: 24px;
     display: flex;
     flex-direction: column;
+    width: 620px;
 }
 input, textarea {
     padding: 20px 10px;
@@ -136,6 +139,6 @@ button {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 }
