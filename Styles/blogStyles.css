@@ -13,19 +13,24 @@ header {
     background-color: #835252;
     padding-top: 44px;
     padding-bottom: 50px;
-    margin-left: 471px;
-    margin-right: 471px;
+    margin-left: 471px auto;
+    margin-right: 471px auto;
 }
 
 .logoName {
-    margin-left: 310px;
-    margin-right: 310px;
+    margin-left: 310px auto;
+    margin-right: 310px auto;
     width: 340px;
 }
 
 h1 { 
     text-align: center;
     font-size: 50px;
+}
+
+.navBar {
+    padding-top: 56px;
+    text-transform: uppercase;
 }
 
 nav {
@@ -41,8 +46,7 @@ nav {
 main {
     flex: 1;
     background-color: #8C6C8C;
-    margin-left: 471px;
-    margin-right: 471px;
+    margin: auto;
     padding-bottom: 30px;
 }
 
@@ -54,8 +58,8 @@ footer {
 
 .footer {
     height: 44px;
-    margin-left: 471px;
-    margin-right: 471px;
+    margin-left: 471px auto;
+    margin-right: 471px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,8 +92,6 @@ h2 {
     text-align: center;
     font-size: 30px;
     background: #BB9A4E;
-    margin-left: 229px;
-    margin-right: 229px;
     opacity: .8;
 }
 
@@ -97,6 +99,8 @@ h2 {
     padding-top: 24px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 469px auto;
+    margin-right: 469px auto;
 }
 
 img {

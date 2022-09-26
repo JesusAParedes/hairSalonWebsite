@@ -28,6 +28,11 @@ h1 {
     font-size: 50px;
 }
 
+.navBar {
+    padding-top: 56px;
+    text-transform: uppercase;
+}
+
 nav {
     padding-top: 56px;
     text-align: center;
